@@ -24,7 +24,7 @@ Execute Django admin and create 10 Football players
 
 ## PROGRAM
 
-----
+```
 Models.py
 
 from django.db import models
@@ -44,7 +44,7 @@ Admin.py
 from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)
-----
+```
 
 ## OUTPUT
 
